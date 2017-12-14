@@ -36,6 +36,14 @@ module.exports = {
 };
 ``
 
+使用：
+
+``js
+eslint ./ --ext .js
+``
+
+备注：具体写法请以项目为准
+
 ### Vue
 
 安装:
@@ -72,6 +80,14 @@ module.exports = {
     }
 };
 ``
+
+### 使用
+
+``js
+eslint ./ --ext .js  --ext .vue
+``
+
+备注：具体写法请以项目为准
 
 
 ### 致谢
