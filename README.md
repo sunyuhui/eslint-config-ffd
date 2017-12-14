@@ -2,13 +2,13 @@
 
 安装：
 
-``js
+``
 npm install --save-dev eslint babel-eslint eslint-config-ffd
 ``
 
 在项目根目录下创建 `.eslintrc.js`，并将以下内容复制到文件中：
 
-``js
+``
 module.exports = {
     extends: [
         'eslint-config-ffd',
@@ -38,7 +38,7 @@ module.exports = {
 
 使用：
 
-``js
+``
 eslint ./ --ext .js
 ``
 
@@ -48,13 +48,13 @@ eslint ./ --ext .js
 
 安装:
 
-``js
+``
 npm install --save-dev eslint vue-eslint-parser@2.0.1-beta.2 eslint-plugin-vue@3 eslint-config-ffd
 ``
 
 在项目根目录下创建 `.eslintrc.js`，并将以下内容复制到文件中：
 
-``js
+``
 module.exports = {
     extends: [
         'eslint-config-ffd/vue',
@@ -83,7 +83,7 @@ module.exports = {
 
 ### 使用
 
-``js
+``
 eslint ./ --ext .js  --ext .vue
 ``
 
