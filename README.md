@@ -49,7 +49,7 @@
 安装:
 
 
-    npm install --save-dev eslint vue-eslint-parser@2.0.1-beta.2 eslint-plugin-vue@3 eslint-config-ffd
+    npm install --save-dev eslint  babel-eslint vue-eslint-parser@2.0.1-beta.2 eslint-plugin-vue@3 eslint-config-ffd
 
 
 在项目根目录下创建 `.eslintrc.js`，并将以下内容复制到文件中：
