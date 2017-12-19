@@ -761,14 +761,7 @@ module.exports = {
         // @off 没必要限制
         'quote-props': 'off',
         // @fixable 必须使用单引号，禁止使用双引号
-        'quotes': [
-            'error',
-            'single',
-            {
-                avoidEscape: true,
-                allowTemplateLiterals: true
-            }
-        ],
+        'quotes': 'off',
         // 必须使用 jsdoc 风格的注释
         // @off 太严格了
         'require-jsdoc': 'off',
